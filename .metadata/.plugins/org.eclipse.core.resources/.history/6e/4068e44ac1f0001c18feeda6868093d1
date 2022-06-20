@@ -1,0 +1,5 @@
+package com.generationprueba.controllers;
+
+public class IndexController {
+
+}

@@ -1,0 +1,5 @@
+package com.generationprueba.api;
+
+public class ParametrosRestController {
+
+}

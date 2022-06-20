@@ -1,0 +1,23 @@
+package com.generationprueba.controllers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.generationprueba.models.Curso;
+import com.generationprueba.services.CursoService;
+
+@Controller
+@RequestMapping("/curso")
+public class CursoController {
+	@Autowired
+	CursoService cursoService;
+	
+	@RequestMapping("")
+	public String inicio(@ModelAttribute("curso") Curso curso) {
+		
+		return "curso.jsp";
+	}
+
+}

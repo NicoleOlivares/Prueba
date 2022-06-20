@@ -1,0 +1,5 @@
+package com.generationprueba.models;
+
+public class Curso {
+
+}

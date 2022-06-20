@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+C:\CursoJava\WS_SCS\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4062999465.index
+\GenerationG1-master\src\main\java
+C:\CursoJava\WS_SCS\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\349634871.index
+\GenerationG1\src\main\java
+C:\CursoJava\WS_SCS\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\803053670.index
+\GenerationG1Wladi1
+C:\CursoJava\WS_SCS\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3418652480.index
+\PruebaNicole\src\main\java

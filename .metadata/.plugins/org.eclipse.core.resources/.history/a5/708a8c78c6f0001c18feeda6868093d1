@@ -1,0 +1,5 @@
+package com.generationprueba.repositories;
+
+public interface CursoRepository {
+
+}
