@@ -1,15 +1,28 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Carita triste :c</title>
+<meta charset="UTF-8">
+<title>Inicio</title>
 </head>
 <body>
-<h1>Hola Nicole!!</h1>
-<p>Gracias, Leito</p>
-<p>Catita <3</p>
+	<div>		<!-- a traves del formulario accdedo a la ruta -->	<!-- atributos del objeto -->
+		<form:form action="/peluche/guardar" method="post" modelAttribute="peluche">
+			<form:label path="nombre">Nombre peluche:</form:label>
+			<form:input path="nombre"/>
+			<br>
+			<form:label path="material">Material del peluche:</form:label>
+			<form:input path="material"/>
+			<br>
+			<form:label path="cobertura">Cobertura de peluche:</form:label>
+			<form:input path="cobertura"/>
+			<br>
+			<button type="submit">Guardar</button>			
+		</form:form>
+	</div>
 
 
 
